@@ -8,8 +8,8 @@ Simulated phishing incident analysis: crafted a realistic phishing email, analyz
 
 The primary objective of this project was to gain hands-on experience in the cybersecurity incident response lifecycle by:
 * Ethically simulating a real-world phishing attack.
-* Conducting a thorough analysis of the simulated incident, identifying Indicators of Compromise (IoCs).
-* Documenting the entire process, findings, and mitigation strategies in a structured incident report.
+* Conducting a thorough analysis of the simulated incident, identifying key Indicators of Compromise (IoCs).
+* Documenting the entire process, findings, and mitigation strategies in a formal incident report.
 
 ## Scenario Overview
 
@@ -40,7 +40,7 @@ The initial assessment of the phishing email's content revealed a sophisticated 
 
 A crucial step involved a deeper dive into the email's raw headers to uncover its true origin and technical path. This analysis helps discern legitimate emails from fraudulent ones.
 
-![Redacted Email Headers Screenshot](assets/assets/email_redacted_screenshot.jpeg)
+![Redacted Email Headers Screenshot](assets/email_redacted_screenshot.jpeg)
 *A redacted screenshot of the email's raw headers, emphasizing key fields such as 'Message ID', 'Created at', 'From:', 'To:', and 'Subject'. This view provides critical metadata for forensic analysis.*
 
 Key observations from the header analysis included:
@@ -58,9 +58,9 @@ The primary call to action in the email was to click a hyperlink, deceptively di
 
 ## Incident Response Report
 
-For a comprehensive breakdown of the simulated incident, including the affected user's proactive actions, all identified Indicators of Compromise (IoCs), detailed analysis, simulated containment steps, and the critical lessons learned, please refer to the full incident report:
+For a comprehensive breakdown of the simulated incident, including the affected user's actions, all identified Indicators of Compromise (IoCs), detailed analysis, simulated containment steps, and the critical lessons learned, please refer to the full incident report:
 
-[**View Full Incident Report (PDF)**](phishing_incident_report.pdf) ## Simulated Containment & Mitigation Steps
+[**View Full Incident Report (PDF)**](assets/phishing_incident_report.pdf) ## Simulated Containment & Mitigation Steps
 
 Based on a real-world scenario, the following actions would be advised and/or taken by a SOC analyst to mitigate the impact and prevent recurrence:
 
@@ -78,4 +78,8 @@ This simulation provided invaluable practical experience and highlighted several
 1.  **The Human Factor Remains Critical:** Despite technical security measures, sophisticated social engineering remains a primary threat. Continuous user education and awareness training are paramount.
 2.  **Always Verify, Never Trust:** Users should be trained to independently verify suspicious requests by directly navigating to official websites or using trusted contact information, rather than clicking embedded links.
 3.  **Email Header Analysis is Key:** Understanding how to analyze email headers is crucial for discerning legitimate emails from phishing attempts, particularly for analyzing `From:`, `Received:`, and `Authentication-Results` headers for anomalies.
-4.  **Importance of Layered Security
+4.  **Importance of Layered Security:** The user's post-incident proactive actions (e.g., directly accessing the official site, password change, MFA setup) demonstrate the effectiveness of layered security controls and proactive user behavior in mitigating potential damage.
+
+## Conclusion
+
+This project underscored the importance of continuous vigilance and analytical rigor in cybersecurity. Understanding both the technical intricacies and the psychological manipulation inherent in phishing attacks
