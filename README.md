@@ -2,7 +2,7 @@
 Simulated phishing incident analysis: crafted a realistic phishing email, analyzed headers for IoCs, investigated link redirection to ISP, and detailed findings in an incident report. Enhanced skills in threat detection, email forensics, and incident response documentation, crucial for a SOC analyst role. #Cybersecurity #SOC #Phishing
 # Simulated Phishing Incident Analysis Project
 
-This project demonstrates practical skills in **threat detection, email forensics, incident analysis, and structured incident reporting**, crucial for a Security Operations Center (SOC) Analyst role. It highlights my ability to dissect a common cyber threat and articulate a professional response.
+![Cybersecurity Project Banner](https://via.placeholder.com/800x200.png?text=Simulated+Phishing+Incident+Analysis+Project) This project demonstrates practical skills in **threat detection, email forensics, incident analysis, and structured incident reporting**, crucial for a Security Operations Center (SOC) Analyst role. It highlights my ability to dissect a common cyber threat and articulate a professional response.
 
 ## Project Goal
 
